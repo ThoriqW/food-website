@@ -1,0 +1,637 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #0A1D37;
+}
+
+:root{
+    --green:#0A1D37;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+/* Scroll Animation */
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+} 
+
+/* containers */
+.container-fluid {
+    padding: 7% 10%
+}
+
+.container-fluid-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+/* Section */
+
+.color-section {
+    background-color: #FFEEDB;
+}
+
+.color-section-blue {
+    background-color: #0A1D37;
+}
+
+.wave-pict {
+    height: 200px;
+}
+
+/* button */
+.menu-btn {
+    background-color: #0A1D37;
+    border: none;
+    border-radius: 0;
+}
+
+.menu-btn:hover {
+    background-color: #11448d;
+}
+
+/* Header Section */
+
+#header {
+    position: relative;
+}
+
+#header .container-fluid {
+    padding: 3% 10% 0;
+}
+
+.wave-img-header {
+    color: transparent;
+}
+
+/* Navigation Bar */
+
+.navbar-home {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #0A1D37;
+    font-size: 1.9rem;
+}
+
+.navbar-brand:hover {
+    color: #11448d;
+
+}
+
+.nav-item {
+    padding: 0 15px;
+    font-size: 1.3rem;
+}
+
+.nav-link {
+    color: #0A1D37;
+}
+
+.nav-link:hover {
+    color: #11448d;
+}
+
+.icon-navbar {
+    color: #0A1D37;
+    cursor: pointer;
+}
+
+.icon-navbar:hover {
+    color: #11448d;
+}
+
+.icons-navbar {
+    position: relative;
+}
+
+.search-bar {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    margin-top: 10px;
+    transform: scale(0);
+}
+
+.active {
+    transform: scale(1);
+}
+
+#navbar-product {
+    padding: 0;
+}
+
+/* Title */
+
+.img-header {
+    width: 500px;
+}
+
+.text-header {
+    padding: 0 15% 0 0;
+    font-size: 1.3rem;
+}
+
+.big-heading {
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+/* How it works */
+
+#delivery .container-fluid {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.title-delivery {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.text1 {
+    padding: 4.5% 4%;
+}
+
+.img-menu {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.order-now-btn {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* About Us */
+
+#about .container-fluid {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.title-about {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.title-box-about {
+    margin-bottom: 20px;
+}
+
+.img-about {
+    width: 100%;
+    background-size: cover;
+}
+
+/* Menu */
+
+#menu-section .container-fluid {
+    padding-top: 0;
+}
+
+.btn-product {
+    text-align: right;
+}
+
+.col-product {
+    margin-top: 20px;
+}
+
+.title-menu-box {
+    margin-bottom: 30px;
+}
+
+.title-menu {
+    font-weight: bold;
+}
+
+.food-box-index {
+    background-color: #eee;
+    text-align: center;
+}
+
+.text-food {
+    text-align: left;
+    padding: 25px;
+}
+
+.img-box {
+    width: 100%;
+    height: 15rem;
+    padding: 1.5rem;
+}
+
+.img-product {
+    width:  200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.title-food {
+    font-weight: 900;
+}
+
+.harga-food {
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+.txt-food {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.product-btn {
+    background-color: #0A1D37;;
+    color: #fff;
+    width: 100%;
+    font-weight: 700;
+    border-radius: 0;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.product-btn:hover {
+    background-color: #11448d;
+    color: #fff;
+}
+
+/* Reviews */
+
+#reviews {
+    padding-bottom: 30px;
+}
+
+.carousel-item  {
+    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-control-prev {
+    width: 10%;
+}
+
+.carousel-control-next {
+    width: 10%;
+}
+
+/* Order now section */
+
+#order-now {
+    text-align: center;
+}
+
+.form-order {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #eee;
+    border: 1px solid #0A1D37;
+}
+
+.title-order {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.input-form input {
+    width: 100%;
+    background-color: #fff;
+    padding: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.input-form textarea {
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.input-form span {
+    font-size: 1.2rem;
+    display: block;
+    padding: 10px 0;
+}
+
+.order-btn {
+    background-color: #0A1D37;
+    border: none;
+    margin-top: 10px;
+    border-radius: 0;
+}
+
+.order-btn:hover {
+    background-color: #11448d;
+}
+
+/* Footer */
+
+.container-fluid-footer {
+    padding: 3% 10%;
+}
+
+.line-footer {
+    margin-top: 30px;
+}
+
+.footer-box a {
+    text-decoration: none;
+    display: block;
+    color: #8f8f8f;
+}
+
+.copyright-footer {
+    text-align: center;
+}
+
+
+/* Product Page  */
+
+/* header-product and About */
+
+.container-navbar {
+    padding: 8px 10%;
+}
+
+.title-product-page {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Menu Product */
+
+.food-box {
+    background-color: #eee;
+    text-align: center;
+}
+
+.box-menu-page {
+    margin-bottom: 24px;
+}
+
+.text-food {
+    text-align: left;
+    padding: 25px;
+}
+
+.img-all-product-box {
+    width: 100%;
+    height: 10rem;
+    padding: 1.5rem;
+}
+
+.img-all-product {
+    width:  120px;
+    height: 120px;
+    background-size: cover;
+}
+
+.box-search-product {
+    border-left: 3px solid rgba(0,0,0,.1);
+    padding: 0 20px;
+}
+
+.input-search-product {
+    padding: 5px 10px;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    background: transparent;
+    width: 80%;
+}
+
+.btn-search-prouduct {
+    background: transparent;
+    border: none;
+}
+
+.icon-btn-box {
+    font-size: 20px;
+}
+
+.product-categories {
+    margin-top: 60px;
+}
+
+.product-categories ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+.product-categories ul li {
+    padding: 15px 0; 
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.category-text {
+    text-decoration: none;
+    cursor: pointer;
+    color: #8f8f8f;
+}
+
+.category-text:hover {
+    color: #FFD8CC;
+}
+
+/* About Page */
+
+.img-about-page {
+    width: 100%;
+    background-size: cover;
+}
+
+.title-about-page {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Contact Page */
+
+#contact-page {
+    text-align: center;
+}
+
+.container-fluid-page-contact {
+    padding: 4% 10%
+}
+
+.title-icon {
+    margin-bottom: 20px;
+}
+
+.box-contact {
+    padding: 3%;
+}
+
+.title-contact-page {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.img-contact {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.box-contact p {
+    margin-bottom: 0.5rem;
+}
+
+.box-map-form {
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+#map-contact {
+    padding: 0;
+}
+
+.img-map-contact {
+    width: 100%;
+    height: 100%;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-contact-box {
+    padding: 3%;
+}
+
+.box-title-form {
+    margin-bottom: 40px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #8f8f8f;
+}
+
+
+/* Media Queries */
+
+@media (max-width:989px) {
+    .big-heading-box {
+        text-align: center;
+    }
+
+    .text-header {
+        padding: 0;
+    }
+
+    .img-header-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .img-header {
+        width: 300px;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    .footer-box {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:570px) {
+
+    .big-heading {
+        font-size: 3rem;
+    }
+
+    .product-btn {
+        font-size: 0.5rem;
+    }
+
+    .img-product {
+        width:  150px;
+        height: 150px;
+    }
+
+    .img-box {
+        width: 100%;
+        height: 10rem;
+        padding: 1rem;
+    }
+
+    .testimonial-text {
+        font-size: 1.5rem;
+    }
+
+    .harga-food {
+        margin-bottom: 20px;
+    } 
+}
+
+@media (max-width:450px){
+
+    .img-product {
+        width:  100px;
+        height: 100px;
+    }
+
+    .title-food {
+        font-size: 20px;
+    }
+
+    .img-box {
+        height: 8rem;
+    }
+
+    form {
+        width: 100%;
+    }
+
+}

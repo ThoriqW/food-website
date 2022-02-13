@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Fontawesom -->
+    <script src="https://kit.fontawesome.com/d31df9d8ac.js" crossorigin="anonymous"></script>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Hunt</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+    <section class="color-section" id="header">
+        <div class="container-fluid">
+
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-md navbar-light navbar-home">
+                <a class="navbar-brand" href="">Food Hunt</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-lg-auto me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="icons-navbar">
+                        <ul class="navbar-nav m-lg-auto me-auto">
+                            <li class="nav-item">
+                                <a class="cart-icon icon-navbar"><i class="fas fa-shopping-cart"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="search-icon icon-navbar"><i class="fas fa-search"></i></a>
+                                <div class="search-bar">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Title -->
+            <div class="row">
+                <div class="col-lg-6 big-heading-box">
+                    <h1 class="big-heading">Always Fresh and High Quality Product</h1>
+                    <p class="text-header">Best cooks and best delivery guys all at your service. Hot tasty food will
+                        reach you in 20mins.</p>
+                    <a href="#order-now"><button class="btn btn-dark btn-lg menu-btn" type="button">Order Now</button></a>
+                </div>
+                <div class="col-lg-6 img-header-box">
+                    <img class="img-header" src="img/home-img-2.png" alt="img-header">
+                </div>
+            </div>
+        </div>
+        <svg class="wave-img-header" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L26.7,229.3C53.3,203,107,149,160,154.7C213.3,160,267,224,320,229.3C373.3,235,427,181,480,149.3C533.3,117,587,107,640,122.7C693.3,139,747,181,800,208C853.3,235,907,245,960,234.7C1013.3,224,1067,192,1120,160C1173.3,128,1227,96,1280,74.7C1333.3,53,1387,43,1413,37.3L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+    </section>
+
+    <!-- how it works section -->
+
+    <section class="white-section" id="delivery">
+
+        <div class="container-fluid">
+            <h1 class="title-delivery">How It Works</h1>
+            <div class="row">
+                <div class="text1 col-xl-4">
+                    <img class="img-menu" src="img/recipe.png" alt="">
+                    <h3 class="title-text1">Pick Your Food</h3>
+                    <p>Sign in & Choose From Our Weekly Menu</p>
+                </div>
+                <div class="text1 col-xl-4">
+                    <img class="img-menu" src="img/van.png" alt="">
+                    <h3 class="title-text1">Deliver the Food</h3>
+                    <p>We Will Deliver Your Purchase</p>
+                </div>
+                <div class="text1 col-xl-4">
+                    <img class="img-menu" src="img/dish-fork-and-knife.png" alt="">
+                    <h3 class="title-text1">Enjoy Your Food</h3>
+                    <p>Enjoy Our Tasty Organic Food</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section class="color-section" id="about">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,192L0,96L360,96L360,256L720,256L720,256L1080,256L1080,192L1440,192L1440,0L1080,0L1080,0L720,0L720,0L360,0L360,0L0,0L0,0Z"></path></svg>
+        <div class="container-fluid">
+            <h1 class="title-about">About Us</h1>
+            <div class="row justify-content-center">
+                <div class="about-box col-lg-6">
+                    <img class="img-about" src="img/family-lunch.jpg" alt="">
+                </div>
+                <div class="about-box col-lg-6">
+                    <h2 class="title-box-about">Best Food In The Country</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque deleniti iste alias, eum natus.</p>
+                    <a href="about.html"><button class="btn btn-dark btn-lg menu-btn" type="button">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,288L0,160L480,160L480,224L960,224L960,192L1440,192L1440,320L960,320L960,320L480,320L480,320L0,320L0,320Z"></path></svg>
+
+    </section>
+
+    <!-- Menu -->
+
+    <section class="white-section" id="menu-section">
+
+        <div class="container-fluid">
+
+            <div class="row title-menu-box">
+                <div class="col-lg-9">
+                    <h1 class="title-menu">Best Seller</h1>
+                </div>
+                <div class="col-lg-3 btn-product">
+                    <a href="product.html"><button class="btn btn-dark btn-lg menu-btn ">All Products</button></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-6 col-product">
+                    <div class="food-box-index">
+                        <div class="img-box">
+                            <img class="img-product" src="img/dish-1.png" alt="">
+                        </div>
+                        <div class="text-food">
+                            <h6 class="txt-food">MEAT</h6>
+                            <h2 class="title-food">Burger</h2>
+                            <h4 class="harga-food">Rp 34.692,14</h4>
+                            <button class="btn btn-light btn-lg product-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-6 col-product">
+                    <div class="food-box-index">
+                        <div class="img-box">
+                            <img class="img-product" src="img/dish-2.png" alt="">
+                        </div>
+                        <div class="text-food">
+                            <h6 class="txt-food">MEAT</h6>
+                            <h2 class="title-food">Nugget</h2>
+                            <h4 class="harga-food">Rp 34.692,14</h4>
+                            <button class="btn btn-light btn-lg product-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-6 col-product">
+                    <div class="food-box-index">
+                        <div class="img-box">
+                            <img class="img-product" src="img/dish-3.png" alt="">
+                        </div>
+                        <div class="text-food">
+                            <h6 class="txt-food">VEGGIE</h6>
+                            <h2 class="title-food">Chicken</h2>
+                            <h4 class="harga-food">Rp 34.692,14</h4>
+                            <button class="btn btn-light btn-lg product-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-sm-6 col-6 col-product">
+                    <div class="food-box-index">
+                        <div class="img-box">
+                            <img class="img-product" src="img/Ice cream chocolate.png" alt="">
+                        </div>
+                        <div class="text-food">
+                            <h6 class="txt-food">DRINK</h6>
+                            <h2 class="title-food">Ice Cream</h2>
+                            <h4 class="harga-food">Rp 34.692,14</h4>
+                            <button class="btn btn-light btn-lg product-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+
+    <!-- Reviews -->
+
+    <section class="color-section" id="reviews">
+        
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active container-fluid">
+                    <h2 class="testimonial-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum unde facilis, voluptas laudantium recusandae.</h2>
+                      <img class="testimonials-img" src="img/pic-1.png" alt="dog-profile">
+                      <em>Pebbles, New York</em>
+                  </div>
+                  <div class="carousel-item container-fluid">
+                    <h2 class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat magni laboriosam rerum sint tempore ratione.</h2>
+                      <img class="testimonials-img" src="img/pic-2.png" alt="dog-profile">
+                      <em>Pebbles, New York</em>
+                  </div>
+                  <div class="carousel-item container-fluid">
+                    <h2 class="testimonial-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit, Repellat magni laboriosam.</h2>
+                      <img class="testimonials-img" src="img/pic-3.png" alt="dog-profile">
+                      <em>Pebbles, New York</em>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+    </section>
+
+    <!-- Order Now -->
+
+    <section class="white-section" id="order-now">
+
+        <div class="container-fluid">
+
+            <h1 class="title-order">Order Now</h1>
+
+            <form class="form-order" action="">
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="input-form">
+                            <span>Your Name</span>
+                            <input type="text">
+                        </div>
+                        <div class="input-form">
+                            <span>Your Order</span>
+                            <input type="text">
+                        </div>
+                        <div class="input-form">
+                            <span>How Much</span>
+                            <input type="text">
+                        </div>
+                        <div class="input-form">
+                            <span>Your Addres</span>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-form">
+                            <span>Your Number</span>
+                            <input type="text">
+                        </div>
+                        <div class="input-form">
+                            <span>Additional Food</span>
+                            <input type="text">
+                        </div>
+                        <div class="input-form">
+                            <span>Date and Time</span>
+                            <input type="date">
+                        </div>
+                        <div class="input-form">
+                            <span>Your Message</span>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-dark btn-lg order-btn">Order Now</button>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <footer class="color-section" id="footer">
+
+        <div class="container-fluid-footer">
+            <div class="row">
+                <div class="col-lg-3 footer-box">
+                    <h3 class="title-footer">Location</h3>
+                    <a href="">Palu</a>
+                    <a href="">Jakarta</a>
+                    <a href="">Surabaya</a>
+                    <a href="">Tolitoli</a>
+                    <a href="">Bandung</a>
+                </div>
+                <div class="col-lg-3 footer-box">
+                    <h3 class="title-footer">Quick Links</h3>
+                    <a href="">Home</a>
+                    <a href="">Menu</a>
+                    <a href="">Order</a>
+                    <a href="">Review</a>
+                    <a href="">About</a>
+                </div>
+                <div class="col-lg-3 footer-box">
+                    <h3 class="title-footer">Contact Info</h3>
+                    <a href="">0822-9670-9235</a>
+                    <a href="">thoriqwajedi88@gmail.com</a>
+                    <a href="">thoriqwajedi55@gmail.com</a>
+                    <a href="">Palu, Sulawesi Tengah, Indonesia</a>
+                </div>
+                <div class="col-lg-3 footer-box">
+                    <h3 class="title-footer">Follow Us</h3>
+                    <a href="">Instagram</a>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Tiktok</a>
+                </div>
+            </div>
+            <hr class="line-footer">
+            <p class="copyright-footer">© Copyright 2022 Moh Thoriq Wajedi</p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
